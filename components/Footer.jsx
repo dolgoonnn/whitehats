@@ -98,7 +98,7 @@ function Footer() {
           </div> */}
 
           {/* 5th block */}
-          <div className="">
+          <div className="max-w-[40%]">
             <h6 className="text-gray-800 font-medium mb-2">Бидний нэг болоорой</h6>
             <p className="text-sm text-gray-600 mb-4">Бүртгүүлсний дараа удахгүй холбогдох болно😘</p>
 
