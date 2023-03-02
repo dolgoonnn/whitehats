@@ -13,8 +13,8 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">How Simple works</h2>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h2 className="h2 mb-4">Бид юу хийдэг вэ?</h2>
+            <p className="text-xl text-gray-600">Технологийн салбарт кареераа эхлүүлэхэд туслахад бүх төрлийн үйл ажиллагаа явуулдаг. Хатуу ур чадвараас зөөлөн ур чадвар гээд л бүр эрүүл мэнддээ ч анхаардаг</p>
           </div>
 
           {/* Items */}
@@ -33,8 +33,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Initial Contact</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Coding</h4>
+              <p className="text-gray-600 text-center">Маш энгийнээр код бичиж том прожектуудыг дууриалган хийх болно</p>
             </div>
 
             {/* 2nd item */}
@@ -49,8 +49,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Discovery Session</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Кареер хөгжил</h4>
+              <p className="text-gray-600 text-center">Ажилд орохд хэрэгтэй хэдхээн зүйлс байдгийг гаргуун сурах болно</p>
             </div>
 
             {/* 3rd item */}
@@ -64,8 +64,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Contracting</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Innovation</h4>
+              <p className="text-gray-600 text-center">Старт-ап клубтэй хамтран инновацийн эрдэмд шамдана🤝.</p>
             </div>
 
             {/* 4th item */}
@@ -80,9 +80,9 @@ function FeaturesBlocks() {
                     <circle className="stroke-current text-blue-300" strokeLinecap="square" cx="12.571" cy="12.571" r="3.429" />
                   </g>
                 </g>
-              </svg>              
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Fast Prototyping</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </svg>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Тэмцээн</h4>
+              <p className="text-gray-600 text-center">Яагаад дандаа csgo, dota гэсэн тэмцээн байх ёстой юм манайхны залхуурахдаа тоглодог тоглоомоор тэмцээн зохионо🔥 </p>
             </div>
 
             {/* 5th item */}
@@ -96,8 +96,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Design Phase</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Мэдлэг солилцох</h4>
+              <p className="text-gray-600 text-center">Бид одоогоор дан Мэдээллийн системийн оюутнууд байгаа. Өөр тэнхимийн хүүхдүүдтэй мэдлэг солилцох өдөрлөг хийнэ</p>
             </div>
 
             {/* 6th item */}
@@ -113,8 +113,8 @@ function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Develop & Launch</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Cпорт өдөрлөг</h4>
+              <p className="text-gray-600 text-center">Дандаа л сууж байна даа тэ🥱. Хааяа ч гэсэн идэвхитэй хөдөлгөөн хийнэ</p>
             </div>
 
           </div>
