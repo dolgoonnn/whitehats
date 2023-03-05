@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Modal from '@utils/Modal';
+import Link from 'next/link';
 
 import HeroImage from '@assets/images/hero-image.png';
 import { doc, setDoc } from "firebase/firestore";
@@ -7,10 +8,22 @@ import { doc, setDoc } from "firebase/firestore";
 function HeroHome() {
 
   const [videoModalOpen, setVideoModalOpen] = useState(false);
+  console.log("🚀 ~ file: HeroHome.jsx:11 ~ HeroHome ~ videoModalOpen:", videoModalOpen)
 
-  const checkMember = () =>{
 
-  }
+  const handleScroll = (e) => {
+    // first prevent the default behavior
+    e.preventDefault();
+    // get the href and remove everything before the hash (#)
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, "");
+    // get the element by id and use scrollIntoView
+    const elem = document.getElementById(targetId);
+    elem?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
 
   return (
     <section className="relative">
@@ -44,12 +57,14 @@ function HeroHome() {
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Мэдээллийн эрин зуунд хөл нийлүүлэн алхахад туслах мэдлэг мэдээллийг олгон, оюутнуудын чөлөөт цагийг үр бүтээлтэй өнгөрүүлнэ.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <button className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
-                  onClick={()=> setVideoModalOpen(true)}
-                  >Бичлэг үзэх</button>
+                  <a href='https://fb.watch/j4m8_q6tAf/'  target="_blank" rel="noreferrer" >
+
+                    <button className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
+                    >Бичлэг үзэх</button>
+                  </a>
                 </div>
                 <div>
-                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Бид юу хийдэг вэ</a>
+                  <Link href="#whatWeDo" onClick={handleScroll} className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4">Бид юу хийдэг вэ</Link>
                 </div>
               </div>
             </div>
