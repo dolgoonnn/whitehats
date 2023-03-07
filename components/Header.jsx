@@ -35,7 +35,7 @@ function Header() {
                 </defs>
                 <rect width="32" height="32" rx="16" fill="url(#header-logo)" fillRule="nonzero" />
               </svg> */}
-              <Image height={48} width={48} alt="Logo" src='/images/logo.jpg'/>
+              <Image height={48} width={150} alt="Logo" src='/images/logo.png'/>
               </Link>
           </div>
 
